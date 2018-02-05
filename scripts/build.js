@@ -8,7 +8,7 @@ const welcome = chalk.reset.inverse.bold.blue('Packages found in this repo : ')
 
 process.stdout.write(`${welcome}\n`)
 
-folders.forEach(f => {
+folders.forEach((f) => {
   const name = chalk.reset.inverse.bold.green(`   ${f}   `)
   process.stdout.write(`${name}\n`)
 })
