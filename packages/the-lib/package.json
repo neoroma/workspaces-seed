@@ -10,11 +10,7 @@
     "ramda": "^0.25.0"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
     "babel-plugin-ramda": "^1.4.3",
-    "babel-preset-env": "^1.6.1",
-    "eslint": "^4.17.0",
     "rollup": "^0.55.3",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-node-resolve": "^3.0.2",
