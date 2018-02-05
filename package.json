@@ -5,6 +5,8 @@
   "author": "Roman",
   "license": "MIT",
   "private": true,
+  "scripts": {
+  },
   "workspaces": [
     "packages/*"
   ]
