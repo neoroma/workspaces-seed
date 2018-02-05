@@ -4,7 +4,8 @@
   "main": "dist/bundle.js",
   "license": "MIT",
   "scripts": {
-    "rlp": "rollup --config"
+    "rlp": "rollup --config",
+    "postinstall": "yarn rlp"
   },
   "dependencies": {
     "ramda": "^0.25.0"

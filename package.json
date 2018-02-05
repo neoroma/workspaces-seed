@@ -6,6 +6,10 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "clean-dist": "rm -rf ./packages/*/dist",
+    "clean-all": "rm -rf ./node_modules && rm -rf ./packages/*/node_modules",
+    "postinstall": "yarn build",
+    "build": "node ./scripts/build.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -15,5 +19,8 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "chalk": "^2.3.0"
+  }
 }
