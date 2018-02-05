@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "react",
+    [
+      "env",
+      {
+        "modules": false,
+        "loose": true,
+        "useBuiltIns": true,
+        "targets": {
+          "browsers": [
+            "safari >= 10",
+            "last 1 version"
+          ]
+        }
+      }
+    ]
+  ]
+}
